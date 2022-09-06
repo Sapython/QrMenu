@@ -8,6 +8,8 @@ const routes: Routes = [
     pathMatch:'full'
   },
   { path: 'qr', loadChildren: () => import('./qr-menu/qr-menu.module').then(m => m.QrMenuModule) },
+  
+  
 ];
 
 @NgModule({

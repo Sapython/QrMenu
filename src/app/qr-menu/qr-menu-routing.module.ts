@@ -19,8 +19,10 @@ const routes: Routes = [
         loadChildren: () =>
           import('./start/start.module').then((m) => m.StartModule),
       },
-        { path: 'splash', loadChildren: () => import('./splash/splash.module').then(m => m.SplashModule) },
+        
         { path: 'menu', loadChildren: () => import('./menu/menu.module').then(m => m.MenuModule) },
+        { path: 'roomOptions', loadChildren: () => import('./room-options/room-options.module').then(m => m.RoomOptionsModule) },
+        { path: 'userDetails', loadChildren: () => import('./user-details/user-details.module').then(m => m.UserDetailsModule) },
     ],
   },
   { path: 'placed', loadChildren: () => import('./placed/placed.module').then(m => m.PlacedModule) },

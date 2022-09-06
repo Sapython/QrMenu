@@ -8,7 +8,7 @@ import { DataProvider } from './providers/data.provider';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  title = 'Dosa Plaza Restaurant';
+  title = 'Hotel Management';
   constructor(public authService:AuthencationService, public dataProvider : DataProvider){
   }
   ngOnInit(): void{

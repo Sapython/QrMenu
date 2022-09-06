@@ -2,12 +2,12 @@
     from{
         opacity: 0;
         scale:.9;
-        transform: rotate(0deg);
+        // transform: rotate(0deg);
     }
     to{
         opacity: 1;
         scale:1;
-        transform: rotate(360deg);
+        // transform: rotate(360deg);
     }
 }
 img.bg {
@@ -40,6 +40,7 @@ main {
         }
         img.splashImage{
             animation: fadeIn alternate 4s infinite cubic-bezier(0.65, 0, 0.35, 1);;
+            padding-bottom: 90px;
         }
       }
   }

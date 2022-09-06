@@ -1,20 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SplashComponent } from './splash.component';
+import { RoomOptionsComponent } from './room-options.component';
 
-describe('SplashComponent', () => {
-  let component: SplashComponent;
-  let fixture: ComponentFixture<SplashComponent>;
+describe('RoomOptionsComponent', () => {
+  let component: RoomOptionsComponent;
+  let fixture: ComponentFixture<RoomOptionsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SplashComponent ]
+      declarations: [ RoomOptionsComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
-    fixture = TestBed.createComponent(SplashComponent);
+    fixture = TestBed.createComponent(RoomOptionsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
