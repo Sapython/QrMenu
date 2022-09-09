@@ -41,6 +41,7 @@
 .main{
     position: absolute;
     top: 0;
+    width: 100%;
 }
 
 .spashBack{
@@ -59,7 +60,14 @@
 }
 
 ::ng-deep .mat-ink-bar {
-    background-color:#ffff !important;}
+    background-color:#ffff !important;
+}
+
+
+::ng-deep  .mat-tab-header-pagination-controls-enabled .mat-tab-header-pagination {
+    display: flex;
+    color: white;
+}
     
 
 .title{
@@ -127,6 +135,7 @@
             color: #ffff;
             font-size: 18px;
             font-weight: 300;
+            max-width: 179px;
         }
         .cardSubTitle{
             color: lightgray;
